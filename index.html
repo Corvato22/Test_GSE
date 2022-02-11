@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Test Cocktails</title>
+</head>
+
+<body>
+    <div class="bar-search">
+        <input type="text" id="inputSearch" class="input-search" placeholder="Search your favorite Cocktails" />
+        <button class="btn-search" id="btnSearch">Search</button>
+    </div>
+
+    <h1 class="card-title"> List of Cocktails</h1>
+    <h2 class="card-results"></h2>
+
+    <div class="cards" id="items"></div>
+    <template id="template-card">
+        <div class="card">
+            <div id="container-list-cocktails">
+                <h3 class="cocktail-name"></h3>
+                <h3 class="cocktail-tags"></h3>
+                <h3 class="cocktail-glass"></h3>
+                <h3 class="cocktail-category"></h3>
+            </div>
+            <!-- <img class="image-cards" src="" alt=""></img>     Quise poner una imagen pero el tiempo no me alcanzó-->
+            <button class="btn-add" id="btnAdd">Add Cocktail</button>
+        </div>
+    </template>
+
+
+    <div class="card">
+        <div id="container-add-cocktails">
+            <h1 class="card-title"> Cocktails Order</h1>
+            <button class="btn-delete" id="btnDelete">Add Cocktail</button>
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
