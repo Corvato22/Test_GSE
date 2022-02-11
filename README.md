@@ -4,7 +4,7 @@
 
 ## Instrucciones de despliegue
 
-Código simple de JavaScript Vanilla, clonar repositorio y abrir archivo HTML (_**index.html**_) en navegador.
+Código simple de JavaScript Vanilla, clonar repositorio y abrir archivo HTML (_**index.html**_) en navegador o ver en despliegue de **[Github Pages](https://corvato22.github.io/Test_GSE/)**
 
 <br>
 
