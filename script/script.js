@@ -32,10 +32,14 @@ btn.addEventListener('click', async (e) => {
 
 //* Assign attributes to cocktail cards
 function assignAtribute(cocktail) {
-    templateCard.querySelector('.card').setAttribute("id", cocktail.id)
+    templateCard.querySelector('.card').setAttribute("id", cocktail.idDrink)
     console.log(cocktail.strDrink)
     templateCard.querySelector('.cocktail-name').textContent = cocktail.strDrink
-    templateCard.querySelector('.cocktail-name').textContent = "Hola"
+    templateCard.querySelector('.cocktail-tags').textContent = cocktail.strTags
+    templateCard.querySelector('.cocktail-instructions').textContent = cocktail.strInstructions
+    templateCard.querySelector('.cocktail-glass').textContent = cocktail.strGlass
+    templateCard.querySelector('.cocktail-category').textContent = cocktail.strCategory
+    templateCard.querySelector('.cocktail-image').setAttribute("src", cocktail.strDrinkThumb);
 
     const clone = templateCard.cloneNode(true);
     fragment.appendChild(clone);

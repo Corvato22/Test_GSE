@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    padding: 20px
+}
+
+.container-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:10px
+}
+
+.bar-search input {
+    width: 200px;
+}
+
+.bar-tittle {
+    width: 450px;
+}
+
+.bar-tittle .card-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 2px rgb(30 30 30 / 70%);
+}
+
+.card #container-list-cocktails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card #container-list-cocktails label {
+    text-decoration: underline;
+}
+
+.card #container-list-cocktails h4 {
+    margin: 10px;
+}
+
+.card .cocktail-image {
+    width: 150px;
+    margin: 10px;
+}

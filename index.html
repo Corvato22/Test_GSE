@@ -11,33 +11,47 @@
 
 <body>
     <div class="bar-search">
+        <h1>Search</h1>
         <input type="text" id="inputSearch" class="input-search" placeholder="Search your favorite Cocktails" />
         <button class="btn-search" id="btnSearch">Search</button>
     </div>
 
-    <h1 class="card-title"> List of Cocktails</h1>
-    <h2 class="card-results"></h2>
+    <div class="bar-tittle">
+        <h1 class="card-title"> List of Cocktails</h1>
+        <h2 class="card-results"></h2>
+    </div>
 
-    <div class="cards" id="items"></div>
-    <template id="template-card">
-        <div class="card">
-            <div id="container-list-cocktails">
-                <h3 class="cocktail-name"></h3>
-                <h3 class="cocktail-tags"></h3>
-                <h3 class="cocktail-glass"></h3>
-                <h3 class="cocktail-category"></h3>
+    <div class="container-content">
+
+        <div class="cards" id="items"></div>
+        <template id="template-card">
+            <div class="card">
+                <div id="container-list-cocktails">
+                    <label for="cocktail-name">Name</label>
+                    <h4 class="cocktail-name"></h4>
+                    <label for="cocktail-tags">Tags</label>
+                    <h4 class="cocktail-tags"></h4>
+                    <label for="cocktail-instructions">Instructions</label>
+                    <h4 class="cocktail-instructions"></h4>
+                    <label for="cocktail-glass">Glass/Cup</label>
+                    <h4 class="cocktail-glass"></h4>
+                    <label for="cocktail-category">Category</label>
+                    <h4 class="cocktail-category"></h4>
+                    <label for="cocktail-image">Image</label>
+                    <img class="cocktail-image" src="" alt=""></img>
+                </div>
+                <button class="btn-add" id="btnAdd">Add Cocktail</button>
             </div>
-            <!-- <img class="image-cards" src="" alt=""></img>     Quise poner una imagen pero el tiempo no me alcanzó-->
-            <button class="btn-add" id="btnAdd">Add Cocktail</button>
-        </div>
-    </template>
+        </template>
 
 
-    <div class="card">
-        <div id="container-add-cocktails">
-            <h1 class="card-title"> Cocktails Order</h1>
-            <button class="btn-delete" id="btnDelete">Add Cocktail</button>
+        <div class="cocktail-order">
+            <div id="container-add-cocktails">
+                <h1 class="card-title"> Cocktails Order</h1>
+                <button class="btn-delete" id="btnDelete">Delete Cocktail</button>
+            </div>
         </div>
+
     </div>
 
 
