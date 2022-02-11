@@ -8,10 +8,6 @@ Código simple de JavaScript Vanilla, clonar repositorio y abrir archivo HTML (_
 
 <br>
 
-----------
-
-<br>
-
 ## Instrucciones de la prueba
 
 En el siguiente [Endpoint](www.thecocktaildb.com/api/json/v1/1/search.php?s=Brandy) podra encontrar un API que le permite consultar cualquier coctel pasandole como parámetro el nombre de un licor (Tenga en cuenta que el API esta escrita en inglés por ende el nombre del licor tambien debe estar en inglés).
